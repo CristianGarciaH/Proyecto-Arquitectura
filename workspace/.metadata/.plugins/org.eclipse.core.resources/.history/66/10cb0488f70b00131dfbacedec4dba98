@@ -1,0 +1,28 @@
+package kk;
+
+import java.util.Scanner;
+
+public class entrada {
+	
+		public static void main(String [] args) {
+			
+		
+			Scanner X=new  Scanner(System.in);
+			int r= X.nextInt();
+			Scanner Y=new  Scanner(System.in);
+			int p= Y.nextInt();
+			int s=r+p;
+			System.out.println("la suma de los numeros es = "+s);
+			
+			int a ; 
+			    a=p;
+			    p=r;
+				r=a;
+				
+				System.out.println("ahora r es igual a   ="+p+"y p es igual a   ="+r);
+			
+		
+			
+		}
+	}
+

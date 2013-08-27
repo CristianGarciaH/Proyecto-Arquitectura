@@ -1,0 +1,68 @@
+package kk;
+
+import java.util.Scanner;
+
+public class entrada {
+	
+		public static void main(String [] args) {
+			
+		
+			Scanner X=new  Scanner(System.in);
+			int r= X.nextInt();
+			Scanner Y=new  Scanner(System.in);
+			int p= Y.nextInt();
+			int s=r+p;
+			System.out.println("la suma de los numeros es = "+s);
+			
+			int a ; 
+			    a=p;
+			    p=r;
+				r=a;
+				
+				System.out.println("ahora r es igual a = "+p+"   y p es igual a = "+r);
+				
+			if (r<p)
+			   System.out.println("la potencia de p sobre r es "+Math.pow(p,r));
+			   
+			   else 
+			      System.out.println(" la potencia de r sobre p es "+Math.pow(r,p));
+			      
+		if (r%3==0 )	
+			System.out.println(" r es multipo de 3"+r);
+		
+		else
+			System.out.println(" r no es multipo de 3"+r);
+		
+		
+		if (p%3==0 )	
+			System.out.println(" p es multipo de 3");
+		
+		else
+			System.out.println(" p no es multipo de 3");
+		
+		Scanner L=new  Scanner(System.in);
+		int n= X.nextInt();
+		
+	      
+	double n1=(-p+Math.sqrt(p*p-4*r*n))/(2*r);
+	
+	if(r!=0&&p*p>4*r*n){ 
+		System.out.println("La primera solucion es "+(-p+Math.sqrt(p*p-4*r*n))/(2*r)); 
+		System.out.println("La segunda solucion es "+(-p-Math.sqrt(p*p-4*r*n))/(2*r)); 
+	}	
+		
+	else
+		
+		System.out.println("sin solucion ");	
+			
+			
+			
+			
+			      
+			   
+		
+		}
+			
+			
+	}
+

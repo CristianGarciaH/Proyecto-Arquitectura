@@ -1,0 +1,17 @@
+package kk;
+
+import java.util.Scanner;
+
+public class entrada {
+	
+		public static void main(String [] args) {
+			
+		
+			Scanner X=new  Scanner(System.in);
+			int r= X.nextInt();
+			Scanner Y=new  Scanner(System.in);
+			
+			System.out.println("la suma es"+"             = "+r);
+		}
+	}
+
